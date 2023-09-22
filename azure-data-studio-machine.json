@@ -1,0 +1,39 @@
+{
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.codeLens": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "mssql.format.keywordCasing": "lowercase",
+    "mssql.format.datatypeCasing": "lowercase",
+    "mssql.intelliSense.lowerCaseSuggestions": true,
+    "mssql.query.displayBitAsNumber": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "terminal.integrated.fontSize": 13,
+    "markdown.preview.fontSize": 13,
+    "breadcrumbs.enabled": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.emptyWindow": false,
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Default Dark Azure Data Studio",
+    "workbench.enablePreviewFeatures": true,
+    "workbench.editorAssociations": {
+      "*.{sqlplan}": "workbench.editor.executionplan"
+    },
+    "extensions.autoCheckUpdates": false,
+    "sqlDatabaseProjects.netCoreSDKLocation": "/usr/share/dotnet",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+      "**/.DS_Store": false,
+      "**/.hg": false,
+      "**/.svn": false,
+      "**/CVS": false,
+      "**/Thumbs.db": false
+    },
+    "git.openRepositoryInParentFolders": "always"
+  }
