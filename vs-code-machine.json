@@ -9,7 +9,8 @@
     "workbench.editor.focusRecentEditorAfterClose": false,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
-    "explorer.openEditors.visible": 0,
+    "explorer.openEditors.visible": 1,
+    "explorer.autoReveal": false,
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.emptyWindow": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -47,8 +48,11 @@
     "dotnet.codeLens.enableReferencesCodeLens": false,
     "dotnet.codeLens.enableTestsCodeLens": false,
     "dotnetAcquisitionExtension.enableTelemetry": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
     "files.exclude": {
         "**/bin": true,
-        "**/obj": true
+        "**/obj": true,
+        "**/node_modules": true
     }
 }
