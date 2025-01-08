@@ -3,6 +3,7 @@
   "workbench.enablePreviewFeatures": true,
   "workbench.colorTheme": "Default Dark Azure Data Studio",
   "workbench.editor.enablePreview": false,
+  "workbench.editor.restoreViewState": false,
   "workbench.editorAssociations": {
     "*.{sqlplan}": "workbench.editor.executionplan"
   },
@@ -28,8 +29,18 @@
   "mssql.query.displayBitAsNumber": false,
   "task.quickOpen.history": 0,
   "search.quickOpen.includeHistory": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bin": true,
+    "**/obj": true
+  },
   "notebookExplorerSearch.quickOpen.includeHistory": false,
   "explorer.compactFolders": false,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/bin": true,
+    "**/obj": true
   }
+}

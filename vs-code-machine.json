@@ -7,6 +7,7 @@
     "workbench.tree.enableStickyScroll": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editor.restoreViewState": false,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.openEditors.visible": 1,
@@ -25,6 +26,19 @@
     "editor.codeLens": false,
     "editor.fontFamily": "monospace",
     "editor.fontSize": 13,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "search.quickOpen.includeHistory": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bin": true,
+        "**/obj": true
+    },
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "git.openRepositoryInParentFolders": "always",
@@ -47,12 +61,5 @@
     "dotnet.server.useOmnisharp": true,
     "dotnet.codeLens.enableReferencesCodeLens": false,
     "dotnet.codeLens.enableTestsCodeLens": false,
-    "dotnetAcquisitionExtension.enableTelemetry": false,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.exclude": {
-        "**/bin": true,
-        "**/obj": true,
-        "**/node_modules": true
-    }
+    "dotnetAcquisitionExtension.enableTelemetry": false
 }
