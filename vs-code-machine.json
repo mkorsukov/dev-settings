@@ -31,13 +31,19 @@
     "files.exclude": {
         "**/node_modules": true,
         "**/bin": true,
-        "**/obj": true
+        "**/obj": true,
+        "**/.vscode": true,
+        "**/.idea": true,
+        "**/.devcontainer": true
     },
     "search.quickOpen.includeHistory": false,
     "search.exclude": {
         "**/node_modules": true,
         "**/bin": true,
-        "**/obj": true
+        "**/obj": true,
+        "**/.vscode": true,
+        "**/.idea": true,
+        "**/.devcontainer": true
     },
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
@@ -49,6 +55,7 @@
     "terminal.integrated.fontSize": 13,
     "html.format.wrapLineLength": 0,
     "diffEditor.ignoreTrimWhitespace": false,
+    "debug.openDebug": "neverOpen",
     "debug.console.closeOnEnd": true,
     "debug.console.wordWrap": false,
     "debug.console.fontSize": 13,
@@ -56,7 +63,6 @@
     "debug.hideLauncherWhileDebugging": true,
     "omnisharp.loggingLevel": "error",
     "omnisharp.sdkIncludePrereleases": false,
-    "razor.server.trace": "Error",
     "dotnet.defaultSolution": "disable",
     "dotnet.server.useOmnisharp": true,
     "dotnet.codeLens.enableReferencesCodeLens": false,
